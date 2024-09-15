@@ -86,19 +86,25 @@ nav li a{
 .section-description{
     font-size: 18px;
     color: #757575;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    padding: 0px 70px;
+}
+.text-center{text-align: center;
+
 }
 /* main styles */
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+
 /* About Styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
-    margin-top: 130px;
     text-align: center;
+    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -114,4 +120,17 @@ main{
 .item-title{
     margin-bottom: 0px;
     color: #757575;
+}
+.skills{margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    }
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
